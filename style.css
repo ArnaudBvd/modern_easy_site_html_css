@@ -54,3 +54,19 @@ nav .buttons .register{ /* applique un style propre au bouton "s'enregistrer" */
     margin-right: 10px;
     color: #fff;
 }
+
+/* Partie header */
+
+body header{
+    margin-top: 40px;
+    background: url('https://officialpsds.com/imageview/rn/62/rn6205_large.png?1521316483');
+    background-repeat: no-repeat; /* évite que l'image ne se répète */
+    background-position: center; /* permet de centrer l'image dans le header */
+    background-size: 400px 400px; /* modifie la taille de l'image */
+}
+
+body header h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 150px;
+}
