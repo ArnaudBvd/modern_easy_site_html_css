@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+body .page{
+    margin: 20px 80px;
+}
+
+/* Barre de navigation */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky; /* permet de fixer la barre de navigation quand on scroll */
+    top: 0; /* fixe la barre de navigation tout en haut */
+    background-color: #141414; /* ajout de couleur qui permet de distinguer la nav bar quand on scroll */
+    padding: 10px 0px;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+nav .onglets a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .buttons button{
+    padding: 13px 20px;    
+    border: none;    
+    font-size: 15px;
+    cursor: pointer;
+    outline: none; /* annule la bordure quand on clique sur le bouton */
+}
+
+nav .buttons .login{ /* applique un style propre au bouton "j'ai déjà un compte" */
+    background-color: inherit; /* inherit = prend la couleur de son parent */
+    margin-right: 10px;
+    color: #8f8f8f;
+}
+
+nav .buttons .register{ /* applique un style propre au bouton "s'enregistrer" */
+    background-color: #f54266;
+    margin-right: 10px;
+    color: #fff;
+}
